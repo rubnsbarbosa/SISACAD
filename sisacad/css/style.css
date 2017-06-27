@@ -1,0 +1,51 @@
+/* Doc CSS */
+
+body {
+  background-color: #f1f1f1;
+}
+
+.retangulo {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 700px;
+  height: 100px;
+  background-color: #00A5C3;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.txt-style {
+  text-align: center;
+  font-size: 40px;
+  font-family: arial, sans-serif;
+  color: white;
+  margin: 26px;
+}
+
+.esconder-div {
+  position: absolute;
+  margin-left: 0px;
+  margin-top: -901px;
+  width: 100%;
+  height: 100%;
+  background-color: #00A5C3;
+  overflow: hidden;
+  clear: both;
+}
+
+.fechar {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-color: #fff;
+  cursor: pointer;
+  overflow: hidden;
+  clear: both;
+}
+
+.size-close {
+  text-align: center;
+  font-size: 40px;
+  overflow: hidden;
+  margin-top: 10px;
+}
