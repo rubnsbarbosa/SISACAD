@@ -3,6 +3,16 @@ body{
   width: 100%;
 }
 
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
 .len {
   width: 50%;
   height: 50%;
@@ -16,6 +26,21 @@ body{
 }
 .img-hand {
   padding-left: 453px;
+}
+
+#media {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 26px;
+}
+
+#ira {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 6px;
+}
+
+#situacao {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 4px;
 }
 
 .txt-block {
