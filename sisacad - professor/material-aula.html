@@ -25,7 +25,7 @@
                     <div><img src="imgs/favicon.png" class="len"></div>
                 </div>
                 <ul class="nav">
-                    <li class="active">
+                    <li>
                         <a href="inicio.html">
                             <p>Início</p>
                         </a>
@@ -45,7 +45,7 @@
                             <p>Notas e avaliações</p>
                         </a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="material-aula.html">
                             <p>Material de aula</p>
                         </a>
@@ -106,6 +106,24 @@
                                     <div class="panel-body txt-block">
 
                                         <h2 class="">Material de Aula</h2>
+                                        <h4 class="sub-header">Enviar material para a turma:
+                                            <select name="tEst" id="cEst">
+                                <optgroup label="Engenharia de Computação">
+                                    <option value="ED"> Estrutura de dados</option>
+                                    <option value="GR" selected> Grafos</option>
+                                </optgroup>
+                                <optgroup label="Engenharia de Telecomunicações">
+                                    <option value="ED"> Estrutura de dados</option>
+                                    <option value="SS"> Sinais e sistemas</option>
+                                </optgroup>
+                                <optgroup label="Engenharia Mecânica">
+                                    <option value="CA"> Cálculo III</option>
+                                    <option value="MM"> Mecânica de materiais</option>
+                                </optgroup>
+                            </select>
+                                            <input class="but" type="image" name="tEnviar" src="imgs/butpost.png" />
+                                        </h4>
+                                        <p><button type="button">Selecionar Material</button></p>
 
                                         <table style="width:100%">
                                             <thead>
@@ -117,32 +135,17 @@
                                             <tbody>
                                                 <!-- Cadeira x -->
                                                 <thead>
-                                                    <th>Engenharia de Software</th>
+                                                    <th>Grafos</th>
                                                 </thead>
                                                 <tr>
-                                                    <th>30/06/2017</th>
-                                                    <th><b>Material: aqui deverá conter um link para um arquivo no formato pdf que o professor irá postar </b></th>
+                                                    <th>07/09/2017</th>
+                                                    <th><b>Nenhum material postado nesta disciplina ainda </b></th>
                                                 </tr>
                                                 <tr>
-                                                    <td>03/07/2017</td>
-                                                    <td><b>Material: aqui deverá conter um link para um arquivo no formato pdf que o professor irá postar </b></td>
-                                                </tr>
-                                                <!-- Cadeira y -->
-                                                <thead>
-                                                    <th>Sistemas Operacionais</th>
-                                                </thead>
-                                                <tr>
-                                                    <th>30/06/2017</th>
-                                                    <th><b>Material: aqui deverá conter um link para um arquivo no formato pdf que o professor irá postar </b></th>
-                                                </tr>
-                                                <tr>
-                                                    <td>03/07/2017</td>
-                                                    <td><b>Material: aqui deverá conter um link para um arquivo no formato pdf que o professor irá postar </b></td>
-                                                </tr>
 
-                                                <tbody>
+
+                                                    <tbody>
                                         </table>
-
                                     </div>
                                 </div>
                             </div>

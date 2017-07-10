@@ -25,7 +25,7 @@
                     <div><img src="imgs/favicon.png" class="len"></div>
                 </div>
                 <ul class="nav">
-                    <li class="active">
+                    <li>
                         <a href="inicio.html">
                             <p>Início</p>
                         </a>
@@ -40,7 +40,7 @@
                             <p>Frequência</p>
                         </a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="nota-avaliacao.html">
                             <p>Notas e avaliações</p>
                         </a>
@@ -103,10 +103,135 @@
                             <div class="card">
                                 <div class="panel">
                                     <div class="panel-body txt-block">
-
-                                        <h2>Horário Individual</h2>
-                                        <h4>20171020458782 - Fulano de Tal</h4>
-                                        <!-- Finalizar o Horário Individual -->
+                                        <h2>Marcar avaliação</h2> <input class="but" type="image" name="tEnviar" src="imgs/but.png" />
+                                        <h4 class="sub-header">Selecione a turma:
+                                            <select name="tEst" id="cEst">
+                                <optgroup label="Engenharia de Computação">
+                                    <option value="ED"> Estrutura de dados</option>
+                                    <option value="GR" > Grafos</option>
+                                </optgroup>
+                                <optgroup label="Engenharia de Telecomunicações">
+                                    <option value="ED"> Estrutura de dados</option>
+                                    <option value="SS" selected> Sinais e sistemas</option>
+                                </optgroup>
+                                <optgroup label="Engenharia Mecânica">
+                                    <option value="CA"> Cálculo III</option>
+                                    <option value="MM"> Mecânica de materiais</option>
+                                </optgroup>
+                            </select>
+                                        </h4>
+                                        <h2>Lançar notas</h2>
+                                        <h4 class="sub-header">Selecione a turma:
+                                            <select name="tEst" id="cEst">
+                                <optgroup label="Engenharia de Computação">
+                                    <option value="ED"> Estrutura de dados</option>
+                                    <option value="GR" > Grafos</option>
+                                </optgroup>
+                                <optgroup label="Engenharia de Telecomunicações">
+                                    <option value="ED"> Estrutura de dados</option>
+                                    <option value="SS" selected> Sinais e sistemas</option>
+                                </optgroup>
+                                <optgroup label="Engenharia Mecânica">
+                                    <option value="CA"> Cálculo III</option>
+                                    <option value="MM"> Mecânica de materiais</option>
+                                </optgroup>
+                            </select>
+                                        </h4>
+                                        <div class="table-responsive">
+                                            <table class="table table-striped" style="width:100%">
+                                                <tr>
+                                                    <th>Matriculas</th>
+                                                    <th>Alunos</th>
+                                                    <th>N1</th>
+                                                    <th>N2</th>
+                                                    <th>N3</th>
+                                                    <th>N4</th>
+                                                    <th>AF</th>
+                                                    <th>Media</th>
+                                                </tr>
+                                                <tr>
+                                                    <td>20142017515425</td>
+                                                    <td>Willian Shakesspeare</td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <th></th>
+                                                </tr>
+                                                <tr>
+                                                    <td>20142014244523</td>
+                                                    <td>Ludwing Van Beethoven</td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <th></th>
+                                                </tr>
+                                                <tr>
+                                                    <td>20142014244123</td>
+                                                    <td>Selina Kyle</td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <th></th>
+                                                </tr>
+                                                <tr>
+                                                    <td>20542017244123</td>
+                                                    <td>Irene Adler</td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <th></th>
+                                                </tr>
+                                                <tr>
+                                                    <td>20442017244123</td>
+                                                    <td>Charles Xavier</td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <th></th>
+                                                </tr>
+                                                <tr>
+                                                    <td>20142017294123</td>
+                                                    <td>Seya de Pégaso</td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <th></th>
+                                                </tr>
+                                                <tr>
+                                                    <td>20142017244123</td>
+                                                    <td>Stephen Strange</td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <th></th>
+                                                </tr>
+                                                <tr>
+                                                    <td>20142017244123</td>
+                                                    <td>Frodo Bolseiro</td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <td><input class="inp" type="text" id="cTex" min="0" max="10" /></td>
+                                                    <th></th>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <!-- Finalizar Notas e avaliações -->
 
                                     </div>
                                 </div>
@@ -131,6 +256,16 @@
             <script type="text/javascript" src="js/wow.min.js"></script>
             <script type="text/javascript" src="js/javascript.js"></script>
             <script src="js/bootstrap.min.js"></script>
+            <script src="http://cdn.jsdelivr.net/webshim/1.12.4/extras/modernizr-custom.js"></script>
+            <!-- polyfiller file to detect and load polyfills -->
+            <script src="http://cdn.jsdelivr.net/webshim/1.12.4/polyfiller.js"></script>
+            <script>
+                webshims.setOptions('waitReady', false);
+                webshims.setOptions('forms-ext', {
+                    types: 'date'
+                });
+                webshims.polyfill('forms forms-ext');
+            </script>
 
 </body>
 
